@@ -1,19 +1,38 @@
-[
-    {
-        "question": "Definition of Most Accessible Receiving Facility (MAR):",
-        "answer" : "MAR is the facility that is most easily reached for a patient, but not necessarily the closest one. Transport decisions should factor in traffic, weather, and other conditions affecting travel time. The MAR could also be a facility associated with the patient's health plan or their 'medical home,' based on their specific medical needs and history."
-
-    }, 
-    
-    {
-        "question": "Definition of Most Accessible Receiving Facility (MAR):",
-        "answer" : "MAR is the facility that is most easily reached for a patient, but not necessarily the closest one. Transport decisions should factor in traffic, weather, and other conditions affecting travel time. The MAR could also be a facility associated with the patient's health plan or their 'medical home,' based on their specific medical needs and history."
-
-    }, 
-    
-    {
-        "question": "Definition of Most Accessible Receiving Facility (MAR):",
-        "answer" : "MAR is the facility that is most easily reached for a patient, but not necessarily the closest one. Transport decisions should factor in traffic, weather, and other conditions affecting travel time. The MAR could also be a facility associated with the patient's health plan or their 'medical home,' based on their specific medical needs and history."
-
-    }
-]
+{
+    "policies": [
+      {
+        "policy": "502 - Patient Destination",
+        "url": "https://file.lacounty.gov/SDSInter/dhs/206229_50210-01-15.pdf",
+        "questions": [
+          {
+            "question": "Definition of Most Accessible Receiving Facility (MAR):",
+            "answer": "MAR is the facility that is most easily reached for a patient, but not necessarily the closest one. Transport decisions should factor in traffic, weather, and other conditions affecting travel time. The MAR could also be a facility associated with the patient's health plan or their 'medical home,' based on their specific medical needs and history."
+          },
+          {
+            "question": "When is bypassing the Most Accessible Receiving Facility (MAR) appropriate?",
+            "answer": "Bypassing the MAR is appropriate under several conditions:\n1. Base Hospital Decision: Another facility is deemed more suitable for the patient's needs.\n2. Specialty Care Needs: The patient requires care at a specialty center such as a Trauma Center, Pediatric Trauma Center, ST-Elevation Myocardial Infarction Center, etc.\n3. Patient's Hospital Request: Conditions include if the patient's condition can withstand the extra transport time, the chosen hospital isn't limited to a specific service area, the hospital can address the patient's main complaint, the transport won't significantly impact the EMS unit's primary response area, and if the request can't be met and the patient refuses transport, try to arrange alternative transportation (e.g., private ambulance).\n4. MAR Diversion for ALS Patients: If the MAR requests diversion and the patient doesn’t have critical issues like an unmanageable airway or uncontrolled hemorrhage, an alternative facility is reachable within 15 minutes, Code 3. If not, patients should go to the MAR unless there's an internal disaster."
+          }
+        ]
+      },
+      {
+        "policy": "506 - Trauma Triage",
+        "url": "https://file.lacounty.gov/SDSInter/dhs/206237_ReferenceNo.506TraumaTriage.pdf",
+        "questions": [
+          {
+            "question": "The trauma triage criteria, guidelines, and special considerations:",
+            "answer": "Trauma Criteria:\n- Systolic BP < 90 mmHg, < 70 mmHg for infants < 1 y/o\n- Respirations > 29 bpm (sustained) or < 10 bpm, < 20 bpm for infants < 1 y/o requiring ventilatory support.\n- Cardiopulmonary arrest w/ penetrating torso trauma unless found apneic, pulseless, asystolic, and w/o pupillary reflexes.\n- All penetrating injuries to head, neck, torso, and extremities proximal to the elbow or knee.\n- Blunt head injury associated w/ suspected skull fracture, ALOC, GCS < 15, seizures, unequal pupils, or focal neurological deficits.\n- Injury to spinal column w/ acute sensory or motor deficits.\n- Blunt injury to chest w/ unstable chest wall (flail chest).\n- Diffuse abdominal tenderness.\n- Suspected pelvic fracture (excluding isolated hip fracture from a ground level fall).\n- Extremity with neuro/vascular compromise and/or crushed, degloved, or mangled extremity.\n- Amputation proximal to wrist or ankle.\n- Fractures of two or more proximal long-bones (humerus/femur).\n- Bleeding not controlled by direct pressure that requires a tourniquet or hemostatic agent.\n- Fall from height > 10 feet.\n- Passenger space intrusion > 12 inches in an occupied passenger space.\n- Auto vs pedestrian/bicyclist/motorcyclist thrown, run over, or with significant impact (> 20mph)\n- Unenclosed transport crash with significant impact (> 20mph).\n- Major/Critical Burn involving a TBSA of 20% or greater for patients 15 or older, and 10% or greater for patients 14 or younger.\n\nTrauma Guidelines:\n- Passenger space intrusion > 18 inches in an unoccupied passenger space.\n- Auto vs pedestrian/bicyclist/motorcyclist with impact < 20mph.\n- Injured victims of vehicular crashes where a fatality occurred in the same vehicle.\n- Patients requiring extraction.\n- Vehicle telemetry data consistent with high risk of injury.\n- Injured patients on anticoagulation or antiplatelet therapy (excluding aspirin), or with bleeding disorders.\n\nSpecial Considerations:\n- Patients in blunt traumatic full arrest that was not found apneic, pulseless, and without organized ECG activity.\n- SBP < 110 mmHg may represent shock in patients > 65 y/o.\n- HR > SBP in patients < 15 y/o.\n- Child (0 to 9 y/o) unrestrained or in an unsecured child safety seat.\n- Pregnancy > 20 weeks gestation.\n- Prehospital judgment."
+          },
+          {
+            "question": "Trauma triage criteria and destination polices for pediatric patients:",
+            "answer": "Should be covered in 510 – Pediatric Patient Destination."          },
+          {
+            "question": "The appropriate destination for patients with a tourniquet:",
+            "answer" : "Patients requiring a tourniquet to control bleeding should be transported to a trauma center."          },
+          {
+            "question": "The maximum allowable transport times to per specialty center destination policies:",
+            "answer": "Patients who fall into one or more of the trauma triage, trauma guidelines, or trauma special consideration categories are to be transported directly to the designated trauma center, if transport time does not exceed 30 minutes."          }
+        ]
+      }
+    ]
+  }
+  
